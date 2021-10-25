@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* nav-bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar .logo {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 30%;
+}
+/* ------------------------ */
+
+/* banner */
+.banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: rgba(5, 1, 1, 0.145);
+    height: 400px;
+    text-align: center;
+}
+.team {
+    background-image: url('../images/banner1.jpg');
+}
+.challenge {
+    background-image: url('../images/banner2.jpg');
+}
+.score {
+    background-image: url('../images/banner3.jpg');
+}
+.banner h1 {
+    margin: 0;
+    padding-top: 30px;
+}
+/* ----------------------- */
+
+/* container */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.box-container {
+    display: grid;
+    gap: 25px;
+    padding: 0 40px;
+}
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-1 {
+    grid-template-columns: 1fr;
+}
+
+.box {
+    padding: 30px 20px;
+    border: 3px solid #ffa500;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-team img {
+    width: 50%;
+}
+
+.container-c .box-container .box, .b-left, .time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #22BBEA;
+}
+
+.b-right {
+    display: flex;
+    align-items: center;
+}
+/* ----------------------- */
+
+/* other style */
+.size {
+    font-size: 70px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+.ml {
+    margin-left: 25px;
+}
+.white {
+    color: #fff;
+}
+.m-0 {
+    margin: 0;
+}
+.bg-orange {
+    background: #ffa500;
+}
+.orange {
+    color: #ffa500;
+}
+.pd-25 {
+    padding: 25px;
+}
+.f-bold {
+    font-weight: bold;
+}
+
+.active {
+    background: #22BBEA;
+}
+.font-banner {
+    font-family: 'Permanent Marker', cursive;
+}
+.black {
+    color: #000;
+}
+/* -------------------- */
+
+/* Hover */
+li:hover {
+    background: #777777;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #ffa500;
+    color: #fff;
+}
+/* ------------------- */
